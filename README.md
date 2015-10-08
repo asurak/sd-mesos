@@ -32,3 +32,7 @@ port: 5050
 ### Slave
 - `slave/uptime_secs` - if below X for longer than X, the slave is flapping
 - `slave/disk_percent` - if just continues rising the slave might run out of space, a threshold is recommended
+
+## Additional plugins
+
+Since the Mesos cluster relies on working ZooKeeper, the [ZooKeeper plugin](https://github.com/serverdensity/sd-agent-plugins/tree/master/ZooKeeper) is highly recommended for monitoring of the ZooKeeper cluster health.
