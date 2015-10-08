@@ -32,6 +32,7 @@ port: 5050
 ### Slave
 - `slave/uptime_secs` - if below X for longer than X, the slave is flapping
 - `slave/disk_percent` - if just continues rising the slave might run out of space, a threshold is recommended
+- `slave/registered` - 0 if not associated to any master
 
 ## Additional plugins
 
