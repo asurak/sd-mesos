@@ -1,3 +1,10 @@
+"""
+Mesos Server Density plugin
+Mesos
+https://github.com/asurak/sd-mesos/
+Version: 1.0.0
+"""
+
 import json
 import urllib2
 
